@@ -11,9 +11,9 @@ export class AuthService {
   userInfo!: UserInfo;
 
   constructor() {
-    // this.userInfo = {
-    //   name: 'Ginims',
-    // };
+    this.userInfo = {
+      name: 'Ginims',
+    };
   }
 
   get isUserLoggedIn(): boolean {

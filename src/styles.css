@@ -11,3 +11,14 @@ body {
   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
 }
+
+.buttons {
+  display: flex;
+  min-width: 400px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.text-align-center{
+  text-align: center;
+}
